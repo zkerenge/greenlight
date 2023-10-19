@@ -2116,3 +2116,8 @@ section {
 #footer .credits a:hover {
   color: white;
 }
+
+/* Fee table last row */
+table tr:last-child {
+  font-weight: bold;
+}
