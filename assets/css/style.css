@@ -2253,3 +2253,17 @@ section {
   }
 
 
+  #header {
+    position: fixed;
+    z-index: 2; /* Higher value to keep the header on top */
+    /* Other styles for the header */
+  }
+  
+  #breadcrumbs {
+    position: static; /* Default positioning */
+    margin-top: 150px; /* Adjust margin as needed */
+    z-index: 1; /* Set a lower z-index value */
+    /* Other styles for the breadcrumbs */
+  }
+  
+
